@@ -18,9 +18,9 @@ Option 1: Install via pip
 
 Option 2: Install from source
 
-git clone https://github.com/yourusername/syslm.git
-cd syslm
-pip install -r requirements.txt
+-git clone https://github.com/yourusername/syslm.git
+-cd syslm
+-pip install -r requirements.txt
 
 
 
@@ -39,15 +39,15 @@ Demonstrates how to perform disease prediction using the SysLM-C model, and extr
 
 ## Biomarker Discovery Modules
 
-1.Differential and Network Biomarkers:via syslm.differential_and_network_biomarkers.py. Network biomarkers require Gephi Louvain algorithm (default parameters) for community detection and visualization
+###1.Differential and Network Biomarkers:via syslm.differential_and_network_biomarkers.py. Network biomarkers require Gephi Louvain algorithm (default parameters) for community detection and visualization
 
-2.Core Biomarkers: via syslm.core_biomarker.py
+###2.Core Biomarkers: via syslm.core_biomarker.py
 
-3.Dynamic Biomarkers: via syslm.dynamic_biomarker.py
+###3.Dynamic Biomarkers: via syslm.dynamic_biomarker.py
 
-4. Disease-Specific vs. Shared Biomarkers
-After obtaining the candidate biomarkers from above modules, you can derive:
+###4. Disease-Specific vs. Shared Biomarkers
+-After obtaining the candidate biomarkers from above modules, you can derive:
 
-Disease-specific biomarkers: by computing the set difference of biomarker sets between diseases
+-Disease-specific biomarkers: by computing the set difference of biomarker sets between diseases
 
-Shared biomarkers: by computing the set intersection across diseases
+-Shared biomarkers: by computing the set intersection across diseases
