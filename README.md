@@ -41,13 +41,20 @@ Demonstrates how to perform disease prediction using the SysLM-C model, and extr
 
 ## Biomarker Discovery Modules
 
--1.Differential and Network Biomarkers:via syslm.differential_and_network_biomarkers.py. Network biomarkers require Gephi Louvain algorithm (default parameters) for community detection and visualization
+1.Differential and Network Biomarkers:
 
--2.Core Biomarkers: via syslm.core_biomarker.py
+-via syslm.differential_and_network_biomarkers.py. Network biomarkers require Gephi Louvain algorithm (default parameters) for community detection and visualization
 
--3.Dynamic Biomarkers: via syslm.dynamic_biomarker.py
+2.Core Biomarkers: 
 
--4. Disease-Specific vs. Shared Biomarkers
+-via syslm.core_biomarker.py
+
+3.Dynamic Biomarkers: 
+
+-via syslm.dynamic_biomarker.py
+
+4. Disease-Specific vs. Shared Biomarkers
+
 -After obtaining the candidate biomarkers from above modules, you can derive:
 
 -Disease-specific biomarkers: by computing the set difference of biomarker sets between diseases
