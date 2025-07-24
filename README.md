@@ -18,11 +18,12 @@ Option 1: Install via pip
 
 Option 2: Install from source
 
--git clone https://github.com/yourusername/syslm.git
+-git clone https://github.com/wang-124/SysLM-model.git
 
--cd syslm
+-cd SysLM-model
 
 -pip install -r requirements.txt
+
 
 
 
@@ -53,7 +54,7 @@ Demonstrates how to perform disease prediction using the SysLM-C model, and extr
 
 -via syslm.dynamic_biomarker.py
 
-4. Disease-Specific vs. Shared Biomarkers
+4.Disease-Specific vs. Shared Biomarkers
 
 -After obtaining the candidate biomarkers from above modules, you can derive:
 
